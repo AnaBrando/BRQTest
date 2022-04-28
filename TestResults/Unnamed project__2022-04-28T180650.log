@@ -1,0 +1,27 @@
+﻿2022-04-28T18:06:50.0552142-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2022-04-28T18:06:50.0553918-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework net50 in x64 mode execution started
+2022-04-28T18:06:50.0553951-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2022-04-28T18:06:50.0572032-03:00;VSTestExecutionThread;Info;Current UserName: 'Ana Brando', MachineName: 'DESKTOP-2J335RT'
+2022-04-28T18:06:50.0945543-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Specs.dll
+2022-04-28T18:06:50.0947516-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Projeto\BRQ\BRQ\TestResults" (default)
+2022-04-28T18:06:50.0948045-03:00;VSTestExecutionThread;Info;Profile: 
+2022-04-28T18:06:50.1356757-03:00;VSTestExecutionThread;Info;Log file path: C:\Projeto\BRQ\BRQ\TestResults\Unnamed project__2022-04-28T180650.log
+2022-04-28T18:06:50.1395778-03:00;Thread#12;Info;Checking activation
+2022-04-28T18:06:52.5889326-03:00;Thread#12;Error;****************************************************************************************************************
+2022-04-28T18:06:52.5893316-03:00;Thread#12;Error;*                                           SpecFlow+ Runner                                                   *
+2022-04-28T18:06:52.5894339-03:00;Thread#12;Error;****************************************************************************************************************
+2022-04-28T18:06:52.5897314-03:00;Thread#12;Error;Please sign-up for your free SpecFlow account or sign-in with your already existing account here:
+2022-04-28T18:06:52.5899222-03:00;Thread#12;Error;https://account.specflow.org/clientactivation/welcome/Runner/E2643C81D3334A12B97529B6D617A2DA2A07D4C48C123C71340588E706D7DE24FC5C3A5F/NotActivatedYet
+2022-04-28T18:06:52.5900401-03:00;Thread#12;Error;to execute your Scenarios again.
+2022-04-28T18:06:52.5903308-03:00;Thread#12;Error;If you are reading this message on a build agent, we couldn't recognize the agent.
+2022-04-28T18:06:52.5904829-03:00;Thread#12;Error;Please get in touch with us at support@specflow.org.
+2022-04-28T18:06:52.5906743-03:00;Thread#12;Error;****************************************************************************************************************
+2022-04-28T18:06:52.5959049-03:00;Thread#12;Error;No tests executed (activation needed)
+2022-04-28T18:06:52.6206281-03:00:Total: 0
+2022-04-28T18:06:52.6228947-03:00:Succeeded: 0
+2022-04-28T18:06:52.6232430-03:00:Ignored: 0
+2022-04-28T18:06:52.6235276-03:00:Pending: 0
+2022-04-28T18:06:52.6246888-03:00:Skipped: 0
+2022-04-28T18:06:52.6249933-03:00:Failed: 0
+2022-04-28T18:06:52.6327626-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

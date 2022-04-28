@@ -1,0 +1,449 @@
+﻿2022-04-28T18:07:30.5107938-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2022-04-28T18:07:30.5110020-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework net50 in x64 mode execution started
+2022-04-28T18:07:30.5110057-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2022-04-28T18:07:30.5129996-03:00;VSTestExecutionThread;Info;Current UserName: 'Ana Brando', MachineName: 'DESKTOP-2J335RT'
+2022-04-28T18:07:30.5442201-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Specs.dll
+2022-04-28T18:07:30.5445020-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Projeto\BRQ\BRQ\TestResults" (default)
+2022-04-28T18:07:30.5445920-03:00;VSTestExecutionThread;Info;Profile: 
+2022-04-28T18:07:30.5980077-03:00;VSTestExecutionThread;Info;Log file path: C:\Projeto\BRQ\BRQ\TestResults\Unnamed project__2022-04-28T180730.log
+2022-04-28T18:07:30.6035468-03:00;Thread#12;Info;Checking activation
+2022-04-28T18:07:33.1303572-03:00;Thread#12;Info;Activated.
+2022-04-28T18:07:33.1306647-03:00;Thread#12;Info;Activation check completed
+2022-04-28T18:07:33.1307554-03:00;Thread#12;Info;Starting test run
+2022-04-28T18:07:33.1402887-03:00;Thread#12;Info;Discovering target: Default
+2022-04-28T18:07:33.1404688-03:00;Thread#12;Info;Discovering tests from assembly: C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Specs.dll
+2022-04-28T18:07:33.2036418-03:00;Thread#12;Info;Discovered tests from assembly: C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Specs.dll
+2022-04-28T18:07:33.2050355-03:00:Test Suite Dump
+2022-04-28T18:07:33.2064449-03:00:#0: Unnamed project/ - 
+2022-04-28T18:07:33.2064687-03:00:#1: Default - 
+2022-04-28T18:07:33.2064708-03:00:#2: Specs - 
+2022-04-28T18:07:33.2064724-03:00:#3: Create Truck - 
+2022-04-28T18:07:33.2073008-03:00:#4: Create Truck Success, 1 - TestAssembly:Specs/Feature:Create+Truck/Scenario:Create+Truck+Success%2c+1
+2022-04-28T18:07:33.2073313-03:00:#5: Create Truck Success, 2 - TestAssembly:Specs/Feature:Create+Truck/Scenario:Create+Truck+Success%2c+2
+2022-04-28T18:07:33.2073374-03:00:#6: Create Truck Failed, 3 - TestAssembly:Specs/Feature:Create+Truck/Scenario:Create+Truck+Failed%2c+3
+2022-04-28T18:07:33.2073426-03:00:#7: Create Truck Failed, 4 - TestAssembly:Specs/Feature:Create+Truck/Scenario:Create+Truck+Failed%2c+4
+2022-04-28T18:07:33.2073716-03:00:End: Test Suite Dump
+2022-04-28T18:07:33.2207353-03:00:Thread#0:Scheduler: get next test for thread 0
+2022-04-28T18:07:33.2219155-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2022-04-28T18:07:33.2219553-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2022-04-28T18:07:33.2242023-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2022-04-28T18:07:33.2242115-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2022-04-28T18:07:33.2242135-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2022-04-28T18:07:33.2242173-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2022-04-28T18:07:33.2246366-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2022-04-28T18:07:33.2254062-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-04-28T18:07:33.2269583-03:00:Thread #0: creating new test thread executor for Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2022-04-28T18:07:33.2286313-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-04-28T18:07:33.2287654-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-04-28T18:07:33.2545470-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2022-04-28T18:07:33.2561637-03:00:starting Out Of Process Executor
+2022-04-28T18:07:33.3213738-03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-04-28T18:07:33.3246760-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2022-04-28T18:07:33.3246925-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2022-04-28T18:07:33.3255647-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:33.3258304-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Microsoft.VisualStudio.Validation.dll'
+2022-04-28T18:07:33.3259213-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Microsoft.VisualStudio.Validation.exe'
+2022-04-28T18:07:33.3259485-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:33.3260876-03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-04-28T18:07:33.3264893-03:00:Tfm: netcoreapp5.0
+2022-04-28T18:07:33.3264989-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:33.3265000-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Validation.dll'
+2022-04-28T18:07:33.3265534-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Validation.exe'
+2022-04-28T18:07:33.3265822-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:33.3318827-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:33.3319014-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\Microsoft.VisualStudio.Validation.dll'
+2022-04-28T18:07:33.3319548-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\Microsoft.VisualStudio.Validation.exe'
+2022-04-28T18:07:33.3319855-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:33.3321699-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:33.3321784-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\Microsoft.VisualStudio.Validation.dll'
+2022-04-28T18:07:33.3322318-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\Microsoft.VisualStudio.Validation.exe'
+2022-04-28T18:07:33.3322635-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:33.3331038-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:33.3331245-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\Microsoft.VisualStudio.Validation.dll'
+2022-04-28T18:07:33.3337040-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\Microsoft.VisualStudio.Validation.exe'
+2022-04-28T18:07:33.3337985-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:33.3364505-03:00:Starting callback TCP Rpc server
+2022-04-28T18:07:33.3526821-03:00:Asynchronously starting background TCP Rpc Server on port 32768
+2022-04-28T18:07:33.3527331-03:00:Started callback TCP Rpc server on port 32768
+2022-04-28T18:07:33.3527345-03:00:Starting logger TCP Rpc server
+2022-04-28T18:07:33.3557591-03:00:Asynchronously starting background TCP Rpc Server on port 32769
+2022-04-28T18:07:33.3557898-03:00:Started logger TCP Rpc server on port 32769
+2022-04-28T18:07:33.4975692-03:00:Executing test executor at 'dotnet' 'exec "C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\net5.0\TechTalk.SpecRun.Framework.Executor.anycpu.net5_0.dll" --remoteRunnerPid 8164 --uniqueId "2022-04-28T180730" --outputFolder "C:\Projeto\BRQ\BRQ\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:33.5039068-03:00:Executor with PID 7856 has been started successfully.
+2022-04-28T18:07:33.5073845-03:00:Out of Process Executor 7856 started
+2022-04-28T18:07:33.5074067-03:00:Waiting for endpoint
+2022-04-28T18:07:34.0449212-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2022-04-28T18:07:34.0449378-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' from .deps.json file
+2022-04-28T18:07:34.0449400-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' from .deps.json
+2022-04-28T18:07:34.0449442-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:34.0449467-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\StreamJsonRpc.resources.dll'
+2022-04-28T18:07:34.0449811-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\StreamJsonRpc.resources.exe'
+2022-04-28T18:07:34.0450088-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:34.0450114-03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-04-28T18:07:34.0450348-03:00:Tfm: netcoreapp5.0
+2022-04-28T18:07:34.0450375-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:34.0450395-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\StreamJsonRpc.resources.dll'
+2022-04-28T18:07:34.0451059-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\StreamJsonRpc.resources.exe'
+2022-04-28T18:07:34.0451573-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:34.0456037-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:34.0456162-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\StreamJsonRpc.resources.dll'
+2022-04-28T18:07:34.0456722-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\StreamJsonRpc.resources.exe'
+2022-04-28T18:07:34.0457110-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:34.0458434-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:34.0458516-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\StreamJsonRpc.resources.dll'
+2022-04-28T18:07:34.0459004-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\StreamJsonRpc.resources.exe'
+2022-04-28T18:07:34.0459383-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:34.0460863-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:34.0460950-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\StreamJsonRpc.resources.dll'
+2022-04-28T18:07:34.0463995-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\StreamJsonRpc.resources.exe'
+2022-04-28T18:07:34.0464527-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:34.0472778-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2022-04-28T18:07:34.0478693-03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-04-28T18:07:34.0478814-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2022-04-28T18:07:34.0478837-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2022-04-28T18:07:34.0478911-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:34.0478926-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Microsoft.VisualStudio.Threading.dll'
+2022-04-28T18:07:34.0479221-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Microsoft.VisualStudio.Threading.exe'
+2022-04-28T18:07:34.0479464-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:34.0479487-03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-04-28T18:07:34.0479629-03:00:Tfm: netcoreapp5.0
+2022-04-28T18:07:34.0479660-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:34.0479672-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Threading.dll'
+2022-04-28T18:07:34.0480072-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Threading.exe'
+2022-04-28T18:07:34.0480377-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:34.0483340-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:34.0483399-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\Microsoft.VisualStudio.Threading.dll'
+2022-04-28T18:07:34.0483751-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\Microsoft.VisualStudio.Threading.exe'
+2022-04-28T18:07:34.0484006-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:34.0484882-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:34.0484909-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\Microsoft.VisualStudio.Threading.dll'
+2022-04-28T18:07:34.0485222-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\Microsoft.VisualStudio.Threading.exe'
+2022-04-28T18:07:34.0485474-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:34.0486526-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:34.0486587-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\Microsoft.VisualStudio.Threading.dll'
+2022-04-28T18:07:34.0487025-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\Microsoft.VisualStudio.Threading.exe'
+2022-04-28T18:07:34.0487267-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:34.2572187-03:00:Remote executor port received: 32770
+2022-04-28T18:07:34.2575875-03:00:Creating executor TCP client on port 32770
+2022-04-28T18:07:34.2579871-03:00:Created executor TCP client on port 32770
+2022-04-28T18:07:34.2579944-03:00:Connecting to remote executor TCP server
+2022-04-28T18:07:34.2589879-03:00:Connected remote executor TCP server
+2022-04-28T18:07:34.2591149-03:00:trying to connect to Out of Process Executor the 1 attempt
+2022-04-28T18:07:34.2591245-03:00:Connection to Out of Process Executor established in the 1 attempt
+2022-04-28T18:07:34.4202449-03:00:2022-04-28T18:07:34.4192820-03:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Specs.dll on test thread #0
+2022-04-28T18:07:34.4248606-03:00:Endpoint 7856 started
+2022-04-28T18:07:34.4500911-03:00:2022-04-28T18:07:34.4497512-03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2022-04-28T18:07:34.5500615-03:00:2022-04-28T18:07:34.5497244-03:00:Assembly resolving TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-04-28T18:07:34.5532070-03:00:2022-04-28T18:07:34.5529108-03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2022-04-28T18:07:34.5559527-03:00:2022-04-28T18:07:34.5556076-03:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\Ana Brando\.nuget\packages\specflow\3.9.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2022-04-28T18:07:34.6762433-03:00:2022-04-28T18:07:34.6758265-03:00:Thread#0:T:-> Loading plugin C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Specs.dll
+2022-04-28T18:07:34.6774297-03:00:2022-04-28T18:07:34.6771368-03:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-04-28T18:07:34.6781561-03:00:2022-04-28T18:07:34.6776116-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2022-04-28T18:07:34.6790113-03:00:2022-04-28T18:07:34.6785202-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\Ana Brando\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2022-04-28T18:07:34.7113888-03:00:2022-04-28T18:07:34.7110182-03:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-04-28T18:07:34.7117306-03:00:2022-04-28T18:07:34.7115715-03:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2022-04-28T18:07:34.7128023-03:00:2022-04-28T18:07:34.7124901-03:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\Ana Brando\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2022-04-28T18:07:34.7191060-03:00:2022-04-28T18:07:34.7187318-03:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2022-04-28T18:07:34.7195597-03:00:2022-04-28T18:07:34.7193672-03:00:Thread#0:T:-> Loading plugin C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\LivingDoc.SpecFlowPlugin.dll
+2022-04-28T18:07:34.7523175-03:00:2022-04-28T18:07:34.7519539-03:00:Assembly resolving LivingDoc.Dtos, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+2022-04-28T18:07:34.7526765-03:00:2022-04-28T18:07:34.7525128-03:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2022-04-28T18:07:34.7531816-03:00:2022-04-28T18:07:34.7529867-03:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\Ana Brando\.nuget\packages\specflow.plus.livingdocplugin\3.9.57\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2022-04-28T18:07:34.7556346-03:00:2022-04-28T18:07:34.7552802-03:00:Thread#0:T:-> Loading plugin C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecRun.Runtime.SpecFlowPlugin.dll
+2022-04-28T18:07:34.7882684-03:00:2022-04-28T18:07:34.7878991-03:00:Thread#0:T:-> Using default config
+2022-04-28T18:07:34.7964480-03:00:2022-04-28T18:07:34.7960439-03:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2022-04-28T18:07:34.7968037-03:00:2022-04-28T18:07:34.7966395-03:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2022-04-28T18:07:34.7972457-03:00:2022-04-28T18:07:34.7970715-03:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\Ana Brando\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2022-04-28T18:07:34.7987519-03:00:2022-04-28T18:07:34.7984274-03:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2022-04-28T18:07:34.7990905-03:00:2022-04-28T18:07:34.7989236-03:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2022-04-28T18:07:34.7995415-03:00:2022-04-28T18:07:34.7993646-03:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\Ana Brando\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2022-04-28T18:07:34.8041879-03:00:2022-04-28T18:07:34.8038390-03:00:Assembly resolving Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2022-04-28T18:07:34.8045601-03:00:2022-04-28T18:07:34.8043899-03:00:[AssemblyCache] Trying to resolve 'Application' from .deps.json file
+2022-04-28T18:07:34.8056327-03:00:2022-04-28T18:07:34.8053314-03:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'Application', found in dependency map, but unable to resolve a path in ['Application.dll']
+2022-04-28T18:07:34.8059895-03:00:2022-04-28T18:07:34.8057995-03:00:[AssemblyCache] Could not resolve 'Application' from .deps.json
+2022-04-28T18:07:34.8078863-03:00:2022-04-28T18:07:34.8073576-03:00:[AssemblyCache] Trying to resolve 'Application' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:34.8124087-03:00:2022-04-28T18:07:34.8120605-03:00:[AssemblyCache] Trying to resolve 'Application' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Application.dll'
+2022-04-28T18:07:34.8129130-03:00:2022-04-28T18:07:34.8126967-03:00:[AssemblyCache] Found file 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Application.dll' for assembly 'Application'
+2022-04-28T18:07:34.8136325-03:00:2022-04-28T18:07:34.8134142-03:00:[AssemblyCache] Resolved 'Application' to C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Application.dll
+2022-04-28T18:07:34.8160143-03:00:2022-04-28T18:07:34.8155687-03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-04-28T18:07:34.8163889-03:00:2022-04-28T18:07:34.8162068-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2022-04-28T18:07:34.8169717-03:00:2022-04-28T18:07:34.8167667-03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\Ana Brando\.nuget\packages\microsoft.testplatform.objectmodel\17.0.0\lib\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2022-04-28T18:07:34.8419272-03:00:2022-04-28T18:07:34.8415817-03:00:Assembly resolving SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-04-28T18:07:34.8422625-03:00:2022-04-28T18:07:34.8421181-03:00:[AssemblyCache] Trying to resolve 'SpecFlow.Internal.Json' from .deps.json file
+2022-04-28T18:07:34.8427144-03:00:2022-04-28T18:07:34.8425302-03:00:[AssemblyCache] Resolved 'SpecFlow.Internal.Json' to 'C:\Users\Ana Brando\.nuget\packages\specflow.internal.json\1.0.8\lib\netstandard2.0\SpecFlow.Internal.Json.dll'
+2022-04-28T18:07:34.9123814-03:00:Thread#0: Test #4/0 is started on thread #0
+2022-04-28T18:07:34.9288529-03:00:2022-04-28T18:07:34.9284177-03:00:Thread#0:B:Given the model 1
+2022-04-28T18:07:34.9483919-03:00:2022-04-28T18:07:34.9480399-03:00:Assembly resolving AutoFixture, Version=4.13.0.0, Culture=neutral, PublicKeyToken=b24654c590009d4f
+2022-04-28T18:07:34.9487778-03:00:2022-04-28T18:07:34.9485812-03:00:[AssemblyCache] Trying to resolve 'AutoFixture' from .deps.json file
+2022-04-28T18:07:34.9492493-03:00:2022-04-28T18:07:34.9490719-03:00:[AssemblyCache] Resolved 'AutoFixture' to 'C:\Users\Ana Brando\.nuget\packages\autofixture\4.13.0\lib\netstandard2.0\AutoFixture.dll'
+2022-04-28T18:07:34.9509536-03:00:2022-04-28T18:07:34.9506738-03:00:Assembly resolving Moq.AutoMock, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null
+2022-04-28T18:07:34.9512601-03:00:2022-04-28T18:07:34.9510951-03:00:[AssemblyCache] Trying to resolve 'Moq.AutoMock' from .deps.json file
+2022-04-28T18:07:34.9517148-03:00:2022-04-28T18:07:34.9515454-03:00:[AssemblyCache] Resolved 'Moq.AutoMock' to 'C:\Users\Ana Brando\.nuget\packages\moq.automock\3.3.0\lib\netstandard2.0\Moq.AutoMock.dll'
+2022-04-28T18:07:34.9528040-03:00:2022-04-28T18:07:34.9525653-03:00:Assembly resolving Moq, Version=4.16.0.0, Culture=neutral, PublicKeyToken=69f491c39445e920
+2022-04-28T18:07:34.9530737-03:00:2022-04-28T18:07:34.9529432-03:00:[AssemblyCache] Trying to resolve 'Moq' from .deps.json file
+2022-04-28T18:07:34.9534423-03:00:2022-04-28T18:07:34.9533011-03:00:[AssemblyCache] Resolved 'Moq' to 'C:\Users\Ana Brando\.nuget\packages\moq\4.17.2\lib\netstandard2.1\Moq.dll'
+2022-04-28T18:07:34.9548779-03:00:2022-04-28T18:07:34.9546141-03:00:Assembly resolving Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2022-04-28T18:07:34.9552085-03:00:2022-04-28T18:07:34.9550441-03:00:[AssemblyCache] Trying to resolve 'Domain' from .deps.json file
+2022-04-28T18:07:34.9556574-03:00:2022-04-28T18:07:34.9554620-03:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'Domain', found in dependency map, but unable to resolve a path in ['Domain.dll']
+2022-04-28T18:07:34.9560065-03:00:2022-04-28T18:07:34.9558412-03:00:[AssemblyCache] Could not resolve 'Domain' from .deps.json
+2022-04-28T18:07:34.9563783-03:00:2022-04-28T18:07:34.9561577-03:00:[AssemblyCache] Trying to resolve 'Domain' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:34.9566801-03:00:2022-04-28T18:07:34.9565287-03:00:[AssemblyCache] Trying to resolve 'Domain' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Domain.dll'
+2022-04-28T18:07:34.9570248-03:00:2022-04-28T18:07:34.9568686-03:00:[AssemblyCache] Found file 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Domain.dll' for assembly 'Domain'
+2022-04-28T18:07:34.9583726-03:00:2022-04-28T18:07:34.9581112-03:00:[AssemblyCache] Resolved 'Domain' to C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\Domain.dll
+2022-04-28T18:07:34.9589874-03:00:2022-04-28T18:07:34.9587960-03:00:Assembly resolving Moq, Version=4.17.0.0, Culture=neutral, PublicKeyToken=69f491c39445e920
+2022-04-28T18:07:34.9598258-03:00:2022-04-28T18:07:34.9596431-03:00:Assembly resolving MediatR, Version=10.0.0.0, Culture=neutral, PublicKeyToken=bb9a41a5e8aaa7e2
+2022-04-28T18:07:34.9601206-03:00:2022-04-28T18:07:34.9599606-03:00:[AssemblyCache] Trying to resolve 'MediatR' from .deps.json file
+2022-04-28T18:07:34.9605197-03:00:2022-04-28T18:07:34.9603696-03:00:[AssemblyCache] Resolved 'MediatR' to 'C:\Users\Ana Brando\.nuget\packages\mediatr\10.0.1\lib\netstandard2.1\MediatR.dll'
+2022-04-28T18:07:34.9616258-03:00:2022-04-28T18:07:34.9614169-03:00:Assembly resolving MediatR.Contracts, Version=1.0.1.0, Culture=neutral, PublicKeyToken=bb9a41a5e8aaa7e2
+2022-04-28T18:07:34.9619214-03:00:2022-04-28T18:07:34.9617800-03:00:[AssemblyCache] Trying to resolve 'MediatR.Contracts' from .deps.json file
+2022-04-28T18:07:34.9623029-03:00:2022-04-28T18:07:34.9621525-03:00:[AssemblyCache] Resolved 'MediatR.Contracts' to 'C:\Users\Ana Brando\.nuget\packages\mediatr.contracts\1.0.1\lib\netstandard2.0\MediatR.Contracts.dll'
+2022-04-28T18:07:34.9679814-03:00:2022-04-28T18:07:34.9676645-03:00:Assembly resolving Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+2022-04-28T18:07:34.9683016-03:00:2022-04-28T18:07:34.9681624-03:00:[AssemblyCache] Trying to resolve 'Castle.Core' from .deps.json file
+2022-04-28T18:07:34.9686816-03:00:2022-04-28T18:07:34.9685331-03:00:[AssemblyCache] Resolved 'Castle.Core' to 'C:\Users\Ana Brando\.nuget\packages\castle.core\4.4.1\lib\netstandard1.5\Castle.Core.dll'
+2022-04-28T18:07:35.0910456-03:00:2022-04-28T18:07:35.0906912-03:00:Thread#0:T:done: CreateTruckSteps.GivenTheModel(1) (0,1s)
+2022-04-28T18:07:35.0929062-03:00:2022-04-28T18:07:35.0925935-03:00:Thread#0:B:And model year 2020
+2022-04-28T18:07:35.0943272-03:00:2022-04-28T18:07:35.0940282-03:00:Thread#0:T:done: CreateTruckSteps.GivenModelYear(2020) (0,0s)
+2022-04-28T18:07:35.0947613-03:00:2022-04-28T18:07:35.0946054-03:00:Thread#0:B:And Manufactory year 2022
+2022-04-28T18:07:35.0959561-03:00:2022-04-28T18:07:35.0956849-03:00:Thread#0:T:done: CreateTruckSteps.GivenManufactoryYear(2022) (0,0s)
+2022-04-28T18:07:35.0965572-03:00:2022-04-28T18:07:35.0963715-03:00:Thread#0:B:When a request for create truck is require
+2022-04-28T18:07:35.0981097-03:00:2022-04-28T18:07:35.0978594-03:00:Thread#0:T:done: CreateTruckSteps.WhenARequestForCreateTruckIsRequire() (0,0s)
+2022-04-28T18:07:35.0984887-03:00:2022-04-28T18:07:35.0983481-03:00:Thread#0:B:And was Valid
+2022-04-28T18:07:35.1001952-03:00:2022-04-28T18:07:35.0998970-03:00:Assembly resolving MediatR.Contracts, Version=1.0.1.0, Culture=neutral, PublicKeyToken=bb9a41a5e8aaa7e2
+2022-04-28T18:07:35.1636135-03:00:2022-04-28T18:07:35.1632548-03:00:Thread#0:T:done: CreateTruckSteps.WhenWasValid() (0,1s)
+2022-04-28T18:07:35.1643770-03:00:2022-04-28T18:07:35.1640660-03:00:Thread#0:B:Then the truck must create
+2022-04-28T18:07:35.1695555-03:00:2022-04-28T18:07:35.1692260-03:00:Assembly resolving FluentAssertions, Version=6.2.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a
+2022-04-28T18:07:35.1699377-03:00:2022-04-28T18:07:35.1697404-03:00:[AssemblyCache] Trying to resolve 'FluentAssertions' from .deps.json file
+2022-04-28T18:07:35.1704294-03:00:2022-04-28T18:07:35.1702297-03:00:[AssemblyCache] Resolved 'FluentAssertions' to 'C:\Users\Ana Brando\.nuget\packages\fluentassertions\6.2.0\lib\netcoreapp3.0\FluentAssertions.dll'
+2022-04-28T18:07:35.3042466-03:00:2022-04-28T18:07:35.3037264-03:00:Assembly resolving xunit.assert, Culture=neutral, PublicKeyToken=null
+2022-04-28T18:07:35.3049150-03:00:2022-04-28T18:07:35.3045740-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' from .deps.json file
+2022-04-28T18:07:35.3054552-03:00:2022-04-28T18:07:35.3051737-03:00:[AssemblyCache] Could not resolve 'xunit.assert' from .deps.json
+2022-04-28T18:07:35.3059920-03:00:2022-04-28T18:07:35.3057211-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:35.3063967-03:00:2022-04-28T18:07:35.3061939-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\xunit.assert.dll'
+2022-04-28T18:07:35.3068823-03:00:2022-04-28T18:07:35.3066406-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\xunit.assert.exe'
+2022-04-28T18:07:35.3074992-03:00:2022-04-28T18:07:35.3072294-03:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:35.3081897-03:00:2022-04-28T18:07:35.3079196-03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-04-28T18:07:35.3089348-03:00:2022-04-28T18:07:35.3087093-03:00:Tfm: netcoreapp5.0
+2022-04-28T18:07:35.3091995-03:00:2022-04-28T18:07:35.3090617-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:35.3094571-03:00:2022-04-28T18:07:35.3093180-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\xunit.assert.dll'
+2022-04-28T18:07:35.3097952-03:00:2022-04-28T18:07:35.3096534-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\xunit.assert.exe'
+2022-04-28T18:07:35.3101498-03:00:2022-04-28T18:07:35.3099937-03:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:35.3162979-03:00:2022-04-28T18:07:35.3159739-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:35.3166583-03:00:2022-04-28T18:07:35.3164849-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\xunit.assert.dll'
+2022-04-28T18:07:35.3170321-03:00:2022-04-28T18:07:35.3168776-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\xunit.assert.exe'
+2022-04-28T18:07:35.3173757-03:00:2022-04-28T18:07:35.3172152-03:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:35.3179279-03:00:2022-04-28T18:07:35.3177370-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:35.3181956-03:00:2022-04-28T18:07:35.3180568-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\xunit.assert.dll'
+2022-04-28T18:07:35.3185555-03:00:2022-04-28T18:07:35.3183950-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\xunit.assert.exe'
+2022-04-28T18:07:35.3188807-03:00:2022-04-28T18:07:35.3187313-03:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:35.3193648-03:00:2022-04-28T18:07:35.3191961-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:35.3196315-03:00:2022-04-28T18:07:35.3194920-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\xunit.assert.dll'
+2022-04-28T18:07:35.3203980-03:00:2022-04-28T18:07:35.3200889-03:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\xunit.assert.exe'
+2022-04-28T18:07:35.3210298-03:00:2022-04-28T18:07:35.3207014-03:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:35.5564740-03:00:2022-04-28T18:07:35.5561242-03:00:Thread#0:T:error: Expected result.Message to be "Success in Create Trunk" with a length of 23, but "Error in Error In Create Trunk" has a length of 30, differs near "Err" (index 0). (0,4s)
+2022-04-28T18:07:35.5773056-03:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2022-04-28T18:07:35.5793136-03:00:Thread#0:Scheduler: get next test for thread 0
+2022-04-28T18:07:35.5793525-03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2022-04-28T18:07:35.5793552-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2022-04-28T18:07:35.5794372-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2022-04-28T18:07:35.5794423-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2022-04-28T18:07:35.5794439-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2022-04-28T18:07:35.5794457-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2022-04-28T18:07:35.5794749-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2022-04-28T18:07:35.5794835-03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2022-04-28T18:07:35.6229448-03:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 0,709745 seconds
+2022-04-28T18:07:35.6254440-03:00:Thread#0: Test #4/1 is started on thread #0
+2022-04-28T18:07:35.6261408-03:00:2022-04-28T18:07:35.6259316-03:00:Thread#0:B:Given the model 1
+2022-04-28T18:07:35.6274940-03:00:2022-04-28T18:07:35.6272737-03:00:Thread#0:T:done: CreateTruckSteps.GivenTheModel(1) (0,0s)
+2022-04-28T18:07:35.6278821-03:00:2022-04-28T18:07:35.6277260-03:00:Thread#0:B:And model year 2020
+2022-04-28T18:07:35.6283660-03:00:2022-04-28T18:07:35.6281846-03:00:Thread#0:T:done: CreateTruckSteps.GivenModelYear(2020) (0,0s)
+2022-04-28T18:07:35.6287281-03:00:2022-04-28T18:07:35.6285687-03:00:Thread#0:B:And Manufactory year 2022
+2022-04-28T18:07:35.6291540-03:00:2022-04-28T18:07:35.6290020-03:00:Thread#0:T:done: CreateTruckSteps.GivenManufactoryYear(2022) (0,0s)
+2022-04-28T18:07:35.6294745-03:00:2022-04-28T18:07:35.6293464-03:00:Thread#0:B:When a request for create truck is require
+2022-04-28T18:07:35.6298538-03:00:2022-04-28T18:07:35.6297061-03:00:Thread#0:T:done: CreateTruckSteps.WhenARequestForCreateTruckIsRequire() (0,0s)
+2022-04-28T18:07:35.6301602-03:00:2022-04-28T18:07:35.6300309-03:00:Thread#0:B:And was Valid
+2022-04-28T18:07:35.6327967-03:00:2022-04-28T18:07:35.6324853-03:00:Thread#0:T:done: CreateTruckSteps.WhenWasValid() (0,0s)
+2022-04-28T18:07:35.6333992-03:00:2022-04-28T18:07:35.6331649-03:00:Thread#0:B:Then the truck must create
+2022-04-28T18:07:35.6363971-03:00:2022-04-28T18:07:35.6360578-03:00:Thread#0:T:error: Expected result.Message to be "Success in Create Trunk" with a length of 23, but "Error in Error In Create Trunk" has a length of 30, differs near "Err" (index 0). (0,0s)
+2022-04-28T18:07:35.6390604-03:00:Thread#0:Scheduler: get next test for thread 0
+2022-04-28T18:07:35.6390729-03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2022-04-28T18:07:35.6390749-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2022-04-28T18:07:35.6390944-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2022-04-28T18:07:35.6390966-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2022-04-28T18:07:35.6390975-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2022-04-28T18:07:35.6391053-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2022-04-28T18:07:35.6391145-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2022-04-28T18:07:35.6391205-03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2022-04-28T18:07:35.6409083-03:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0,0154157 seconds
+2022-04-28T18:07:35.6413797-03:00:Thread#0: Test #4/2 is started on thread #0
+2022-04-28T18:07:35.6418492-03:00:2022-04-28T18:07:35.6416427-03:00:Thread#0:B:Given the model 1
+2022-04-28T18:07:35.6427859-03:00:2022-04-28T18:07:35.6425221-03:00:Thread#0:T:done: CreateTruckSteps.GivenTheModel(1) (0,0s)
+2022-04-28T18:07:35.6433042-03:00:2022-04-28T18:07:35.6430792-03:00:Thread#0:B:And model year 2020
+2022-04-28T18:07:35.6438595-03:00:2022-04-28T18:07:35.6436458-03:00:Thread#0:T:done: CreateTruckSteps.GivenModelYear(2020) (0,0s)
+2022-04-28T18:07:35.6443411-03:00:2022-04-28T18:07:35.6441196-03:00:Thread#0:B:And Manufactory year 2022
+2022-04-28T18:07:35.6448930-03:00:2022-04-28T18:07:35.6447013-03:00:Thread#0:T:done: CreateTruckSteps.GivenManufactoryYear(2022) (0,0s)
+2022-04-28T18:07:35.6452650-03:00:2022-04-28T18:07:35.6451183-03:00:Thread#0:B:When a request for create truck is require
+2022-04-28T18:07:35.6456247-03:00:2022-04-28T18:07:35.6454850-03:00:Thread#0:T:done: CreateTruckSteps.WhenARequestForCreateTruckIsRequire() (0,0s)
+2022-04-28T18:07:35.6458734-03:00:2022-04-28T18:07:35.6457584-03:00:Thread#0:B:And was Valid
+2022-04-28T18:07:35.6525082-03:00:2022-04-28T18:07:35.6521108-03:00:Thread#0:T:done: CreateTruckSteps.WhenWasValid() (0,0s)
+2022-04-28T18:07:35.6531531-03:00:2022-04-28T18:07:35.6528815-03:00:Thread#0:B:Then the truck must create
+2022-04-28T18:07:35.6551667-03:00:2022-04-28T18:07:35.6548410-03:00:Thread#0:T:error: Expected result.Message to be "Success in Create Trunk" with a length of 23, but "Error in Error In Create Trunk" has a length of 30, differs near "Err" (index 0). (0,0s)
+2022-04-28T18:07:35.6573793-03:00:Thread#0:Scheduler: get next test for thread 0
+2022-04-28T18:07:35.6573921-03:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2022-04-28T18:07:35.6573938-03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2022-04-28T18:07:35.6574100-03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2022-04-28T18:07:35.6574124-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2022-04-28T18:07:35.6574136-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2022-04-28T18:07:35.6574162-03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2022-04-28T18:07:35.6574255-03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2022-04-28T18:07:35.6574325-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-04-28T18:07:35.6589674-03:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0,0175585 seconds
+2022-04-28T18:07:35.6593182-03:00:Thread#0: Test #5/0 is started on thread #0
+2022-04-28T18:07:35.6601319-03:00:2022-04-28T18:07:35.6598516-03:00:Thread#0:B:Given the model 2
+2022-04-28T18:07:35.6610583-03:00:2022-04-28T18:07:35.6607837-03:00:Thread#0:T:done: CreateTruckSteps.GivenTheModel(2) (0,0s)
+2022-04-28T18:07:35.6615140-03:00:2022-04-28T18:07:35.6613332-03:00:Thread#0:B:And model year 2020
+2022-04-28T18:07:35.6620745-03:00:2022-04-28T18:07:35.6618481-03:00:Thread#0:T:done: CreateTruckSteps.GivenModelYear(2020) (0,0s)
+2022-04-28T18:07:35.6624788-03:00:2022-04-28T18:07:35.6623244-03:00:Thread#0:B:And Manufactory year 2025
+2022-04-28T18:07:35.6628808-03:00:2022-04-28T18:07:35.6627492-03:00:Thread#0:T:done: CreateTruckSteps.GivenManufactoryYear(2025) (0,0s)
+2022-04-28T18:07:35.6631570-03:00:2022-04-28T18:07:35.6630276-03:00:Thread#0:B:When a request for create truck is require
+2022-04-28T18:07:35.6634623-03:00:2022-04-28T18:07:35.6633466-03:00:Thread#0:T:done: CreateTruckSteps.WhenARequestForCreateTruckIsRequire() (0,0s)
+2022-04-28T18:07:35.6637030-03:00:2022-04-28T18:07:35.6635898-03:00:Thread#0:B:And was Valid
+2022-04-28T18:07:35.6655875-03:00:2022-04-28T18:07:35.6653880-03:00:Thread#0:T:done: CreateTruckSteps.WhenWasValid() (0,0s)
+2022-04-28T18:07:35.6659320-03:00:2022-04-28T18:07:35.6657939-03:00:Thread#0:B:Then the truck must create
+2022-04-28T18:07:35.6672088-03:00:2022-04-28T18:07:35.6670170-03:00:Thread#0:T:error: Expected result.Message to be "Success in Create Trunk" with a length of 23, but "Error in Error In Create Trunk - Invalid Fields" has a length of 47, differs near "Err" (index 0). (0,0s)
+2022-04-28T18:07:35.6688053-03:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2022-04-28T18:07:35.6693984-03:00:Thread#0:Scheduler: get next test for thread 0
+2022-04-28T18:07:35.6694143-03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2022-04-28T18:07:35.6694161-03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2022-04-28T18:07:35.6694378-03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2022-04-28T18:07:35.6694399-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2022-04-28T18:07:35.6694411-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2022-04-28T18:07:35.6694423-03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2022-04-28T18:07:35.6694515-03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2022-04-28T18:07:35.6694576-03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2022-04-28T18:07:35.6712269-03:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 0,0118808 seconds
+2022-04-28T18:07:35.6717712-03:00:Thread#0: Test #5/1 is started on thread #0
+2022-04-28T18:07:35.6725290-03:00:2022-04-28T18:07:35.6722213-03:00:Thread#0:B:Given the model 2
+2022-04-28T18:07:35.6735694-03:00:2022-04-28T18:07:35.6732447-03:00:Thread#0:T:done: CreateTruckSteps.GivenTheModel(2) (0,0s)
+2022-04-28T18:07:35.6741639-03:00:2022-04-28T18:07:35.6738994-03:00:Thread#0:B:And model year 2020
+2022-04-28T18:07:35.6747857-03:00:2022-04-28T18:07:35.6745412-03:00:Thread#0:T:done: CreateTruckSteps.GivenModelYear(2020) (0,0s)
+2022-04-28T18:07:35.6752748-03:00:2022-04-28T18:07:35.6750904-03:00:Thread#0:B:And Manufactory year 2025
+2022-04-28T18:07:35.6757016-03:00:2022-04-28T18:07:35.6755639-03:00:Thread#0:T:done: CreateTruckSteps.GivenManufactoryYear(2025) (0,0s)
+2022-04-28T18:07:35.6759749-03:00:2022-04-28T18:07:35.6758522-03:00:Thread#0:B:When a request for create truck is require
+2022-04-28T18:07:35.6762946-03:00:2022-04-28T18:07:35.6761706-03:00:Thread#0:T:done: CreateTruckSteps.WhenARequestForCreateTruckIsRequire() (0,0s)
+2022-04-28T18:07:35.6765636-03:00:2022-04-28T18:07:35.6764487-03:00:Thread#0:B:And was Valid
+2022-04-28T18:07:35.6784101-03:00:2022-04-28T18:07:35.6782191-03:00:Thread#0:T:done: CreateTruckSteps.WhenWasValid() (0,0s)
+2022-04-28T18:07:35.6787177-03:00:2022-04-28T18:07:35.6785931-03:00:Thread#0:B:Then the truck must create
+2022-04-28T18:07:35.6798546-03:00:2022-04-28T18:07:35.6796709-03:00:Thread#0:T:error: Expected result.Message to be "Success in Create Trunk" with a length of 23, but "Error in Error In Create Trunk - Invalid Fields" has a length of 47, differs near "Err" (index 0). (0,0s)
+2022-04-28T18:07:35.6812817-03:00:Thread#0:Scheduler: get next test for thread 0
+2022-04-28T18:07:35.6812923-03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2022-04-28T18:07:35.6812941-03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2022-04-28T18:07:35.6813092-03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2022-04-28T18:07:35.6813112-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2022-04-28T18:07:35.6813123-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2022-04-28T18:07:35.6813136-03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2022-04-28T18:07:35.6813225-03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2022-04-28T18:07:35.6813274-03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2022-04-28T18:07:35.6828171-03:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 0,0110149 seconds
+2022-04-28T18:07:35.6831592-03:00:Thread#0: Test #5/2 is started on thread #0
+2022-04-28T18:07:35.6836863-03:00:2022-04-28T18:07:35.6834476-03:00:Thread#0:B:Given the model 2
+2022-04-28T18:07:35.6846618-03:00:2022-04-28T18:07:35.6842973-03:00:Thread#0:T:done: CreateTruckSteps.GivenTheModel(2) (0,0s)
+2022-04-28T18:07:35.6855016-03:00:2022-04-28T18:07:35.6851202-03:00:Thread#0:B:And model year 2020
+2022-04-28T18:07:35.6865593-03:00:2022-04-28T18:07:35.6861668-03:00:Thread#0:T:done: CreateTruckSteps.GivenModelYear(2020) (0,0s)
+2022-04-28T18:07:35.6870334-03:00:2022-04-28T18:07:35.6868666-03:00:Thread#0:B:And Manufactory year 2025
+2022-04-28T18:07:35.6874597-03:00:2022-04-28T18:07:35.6873172-03:00:Thread#0:T:done: CreateTruckSteps.GivenManufactoryYear(2025) (0,0s)
+2022-04-28T18:07:35.6877580-03:00:2022-04-28T18:07:35.6876248-03:00:Thread#0:B:When a request for create truck is require
+2022-04-28T18:07:35.6881327-03:00:2022-04-28T18:07:35.6879938-03:00:Thread#0:T:done: CreateTruckSteps.WhenARequestForCreateTruckIsRequire() (0,0s)
+2022-04-28T18:07:35.6884925-03:00:2022-04-28T18:07:35.6883363-03:00:Thread#0:B:And was Valid
+2022-04-28T18:07:35.6908968-03:00:2022-04-28T18:07:35.6906315-03:00:Thread#0:T:done: CreateTruckSteps.WhenWasValid() (0,0s)
+2022-04-28T18:07:35.6912537-03:00:2022-04-28T18:07:35.6911223-03:00:Thread#0:B:Then the truck must create
+2022-04-28T18:07:35.6925227-03:00:2022-04-28T18:07:35.6923235-03:00:Thread#0:T:error: Expected result.Message to be "Success in Create Trunk" with a length of 23, but "Error in Error In Create Trunk - Invalid Fields" has a length of 47, differs near "Err" (index 0). (0,0s)
+2022-04-28T18:07:35.6940649-03:00:Thread#0:Scheduler: get next test for thread 0
+2022-04-28T18:07:35.6940761-03:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2022-04-28T18:07:35.6940778-03:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2022-04-28T18:07:35.6940920-03:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2022-04-28T18:07:35.6940939-03:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2022-04-28T18:07:35.6940950-03:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2022-04-28T18:07:35.6940973-03:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2022-04-28T18:07:35.6941043-03:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2022-04-28T18:07:35.6941099-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-04-28T18:07:35.6955765-03:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 0,0123855 seconds
+2022-04-28T18:07:35.6960068-03:00:Thread#0: Test #6/0 is started on thread #0
+2022-04-28T18:07:35.6978534-03:00:2022-04-28T18:07:35.6975313-03:00:Thread#0:B:Given the model 3
+2022-04-28T18:07:35.6987244-03:00:2022-04-28T18:07:35.6984704-03:00:Thread#0:T:done: CreateTruckSteps.GivenTheModel(3) (0,0s)
+2022-04-28T18:07:35.6990764-03:00:2022-04-28T18:07:35.6989389-03:00:Thread#0:B:And model year 2019
+2022-04-28T18:07:35.6994529-03:00:2022-04-28T18:07:35.6993290-03:00:Thread#0:T:done: CreateTruckSteps.GivenModelYear(2019) (0,0s)
+2022-04-28T18:07:35.6996933-03:00:2022-04-28T18:07:35.6995841-03:00:Thread#0:B:And Manufactory year 2020
+2022-04-28T18:07:35.7000024-03:00:2022-04-28T18:07:35.6998911-03:00:Thread#0:T:done: CreateTruckSteps.GivenManufactoryYear(2020) (0,0s)
+2022-04-28T18:07:35.7002768-03:00:2022-04-28T18:07:35.7001365-03:00:Thread#0:B:When a request for create truck is require
+2022-04-28T18:07:35.7007355-03:00:2022-04-28T18:07:35.7005580-03:00:Thread#0:T:done: CreateTruckSteps.WhenARequestForCreateTruckIsRequire() (0,0s)
+2022-04-28T18:07:35.7011678-03:00:2022-04-28T18:07:35.7009621-03:00:Thread#0:B:And was InValid
+2022-04-28T18:07:35.7076136-03:00:2022-04-28T18:07:35.7073300-03:00:Thread#0:T:done: CreateTruckSteps.WhenWasInValid() (0,0s)
+2022-04-28T18:07:35.7080017-03:00:2022-04-28T18:07:35.7078603-03:00:Thread#0:B:Then the truck is not create
+2022-04-28T18:07:35.7104686-03:00:2022-04-28T18:07:35.7102806-03:00:Thread#0:T:error: Expected result.Message to be "Success in Error In Create Trunk" with a length of 32, but "Error in Error In Create Trunk - Invalid Fields" has a length of 47, differs near "Err" (index 0). (0,0s)
+2022-04-28T18:07:35.7118853-03:00:Cancelling because configured number of failures reached
+2022-04-28T18:07:35.7151278-03:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 0,0190932 seconds
+2022-04-28T18:07:35.7210980-03:00:2022-04-28T18:07:35.7208755-03:00:Got Deinitialize Signal
+2022-04-28T18:07:35.7243154-03:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2022-04-28T18:07:35.7250514-03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2022-04-28T18:07:35.7260538-03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2022-04-28T18:07:35.7274043-03:00:Assembly resolving System.Diagnostics.Process.resources, Version=5.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2022-04-28T18:07:35.7274156-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2022-04-28T18:07:35.7274172-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2022-04-28T18:07:35.7274200-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:35.7274212-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\System.Diagnostics.Process.resources.dll'
+2022-04-28T18:07:35.7274493-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\System.Diagnostics.Process.resources.exe'
+2022-04-28T18:07:35.7274726-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0'
+2022-04-28T18:07:35.7274747-03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-04-28T18:07:35.7274869-03:00:Tfm: netcoreapp5.0
+2022-04-28T18:07:35.7274890-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:35.7274899-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\System.Diagnostics.Process.resources.dll'
+2022-04-28T18:07:35.7275339-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\System.Diagnostics.Process.resources.exe'
+2022-04-28T18:07:35.7275665-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Projeto\BRQ\BRQ\Tests\BDD\Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-04-28T18:07:35.7278921-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:35.7278976-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\System.Diagnostics.Process.resources.dll'
+2022-04-28T18:07:35.7279314-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16\System.Diagnostics.Process.resources.exe'
+2022-04-28T18:07:35.7279566-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.16'
+2022-04-28T18:07:35.7280509-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:35.7280552-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\System.Diagnostics.Process.resources.dll'
+2022-04-28T18:07:35.7280882-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16\System.Diagnostics.Process.resources.exe'
+2022-04-28T18:07:35.7281137-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.16'
+2022-04-28T18:07:35.7282289-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:35.7282341-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\System.Diagnostics.Process.resources.dll'
+2022-04-28T18:07:35.7286207-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16\System.Diagnostics.Process.resources.exe'
+2022-04-28T18:07:35.7286753-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.16'
+2022-04-28T18:07:35.7291291-03:00:Assembly resolving System.Diagnostics.Process.resources, Version=5.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2022-04-28T18:07:35.7364076-03:00:Thread#-1:Scheduler: get next test for thread -1
+2022-04-28T18:07:35.7364298-03:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2022-04-28T18:07:35.7364326-03:00:Thread#-1:Scheduler: considering testitem #7 for thread -1
+2022-04-28T18:07:35.7364344-03:00:Thread#-1:Scheduler: using testitem #7 for thread -1
+2022-04-28T18:07:35.7364379-03:00:Thread#-1:Scheduler: Test #7 is scheduled for thread
+2022-04-28T18:07:35.7367656-03:00:Thread#-1: Test #7/0 is started on thread #-1
+2022-04-28T18:07:35.7368327-03:00:Thread#-1: Test #7/0 is finished on thread #-1 as Skipped within 3,31E-05 seconds
+2022-04-28T18:07:35.7368615-03:00:Thread#-1:Scheduler: get next test for thread -1
+2022-04-28T18:07:35.7368683-03:00:Thread#:Scheduler: at the end of normal test queue
+2022-04-28T18:07:35.7368718-03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2022-04-28T18:07:35.7422613-03:00;Thread#12;Info;test run finished
+2022-04-28T18:07:35.7424845-03:00;Thread#12;Info;publishing test results
+2022-04-28T18:07:35.7426570-03:00;Thread#12;Info;Not publishing results.
+2022-04-28T18:07:35.7427435-03:00;Thread#12;Info;test results published
+2022-04-28T18:07:35.7427907-03:00;Thread#12;Info;generating reports
+2022-04-28T18:07:35.8068904-03:00;Thread#12;Info;Starting external report generation process
+2022-04-28T18:07:38.5665641-03:00;Thread#12;Info;Successfully generated reports.
+2022-04-28T18:07:38.5686038-03:00;Thread#12;Info;Successfully generated reports
+2022-04-28T18:07:38.5752473-03:00:Total: 4 (test executions: 8)
+2022-04-28T18:07:38.5767048-03:00:Succeeded: 0
+2022-04-28T18:07:38.5769387-03:00:Ignored: 0
+2022-04-28T18:07:38.5771324-03:00:Pending: 0
+2022-04-28T18:07:38.5771378-03:00:Skipped: 1
+2022-04-28T18:07:38.5773182-03:00:Failed: 3
+2022-04-28T18:07:38.5822132-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2022-04-28T18:07:38.5822883-03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Projeto\BRQ\BRQ\TestResults\Unnamed project__2022-04-28T180730.html'
+========== End of log file ==========

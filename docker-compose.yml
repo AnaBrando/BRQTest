@@ -1,0 +1,17 @@
+version: '3.6'
+networks: 
+    backend:
+
+volumes:
+  caminhoesdata:
+    
+services:
+  webapi:
+    container_name: webapi
+    build: 
+      context: .
+      dockerfile: Dockerfile.Api
+    networks: 
+      - backend
+    ports:
+      - 80:5000
