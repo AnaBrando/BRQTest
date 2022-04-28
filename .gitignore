@@ -1,0 +1,13 @@
+# comment
+*/temp*
+*/*/temp*
+temp?
+*.md
+!README*.md
+README-secret.md
+*bin/
+*obj/
+.vscode/
+*.vscode/
+*.vs/
+*/.vs
