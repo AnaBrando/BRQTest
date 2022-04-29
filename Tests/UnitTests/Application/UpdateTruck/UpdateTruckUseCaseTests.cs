@@ -10,9 +10,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace UnitTests.Application.UpdateTruck
+namespace UnitTests.UpdateTruckUseCaseTests
 {
-    public class UpdateTruckUseCase
+    public class UpdateTruckUseCaseTests
     {
 
         private readonly Fixture _fixture = new Fixture();
@@ -25,6 +25,10 @@ namespace UnitTests.Application.UpdateTruck
         [InlineData(1, 2022, 2022)]
         [InlineData(2, 2022, 2024)]
         [InlineData(2, 2022, 2030)]
+        [InlineData(1, 2022, 2026)]
+        [InlineData(2, 2022, 2027)]
+        [InlineData(2, 2022, 2031)]
+        [InlineData(1, 2022, 2031)]
         public async Task ShouldUpdateTruckWithSuccess(int model, int manufactoryYear, int modelyear)
         {
             //arrange
@@ -63,6 +67,10 @@ namespace UnitTests.Application.UpdateTruck
         [InlineData(1, 2024, 2021)]
         [InlineData(3, 2030, 2018)]
         [InlineData(4, 2024, 2019)]
+        [InlineData(5, 2024, 2021)]
+        [InlineData(6, 2030, 2018)]
+        [InlineData(7, 2024, 2019)]
+        [InlineData(8, 2024, 2019)]
         public async Task ShouldNotUpdateTruckWithInvalidParameters(int model, int manufactoryYear, int modelyear)
         {
             //arrange
@@ -98,6 +106,10 @@ namespace UnitTests.Application.UpdateTruck
         [InlineData(1, 2022, 2022)]
         [InlineData(2, 2022, 2024)]
         [InlineData(2, 2022, 2030)]
+        [InlineData(1, 2022, 2026)]
+        [InlineData(2, 2022, 2025)]
+        [InlineData(2, 2022, 2026)]
+        [InlineData(1, 2022, 2030)]
         public async Task ShouldNotUpdateTruckWithError(int model, int manufactoryYear, int modelyear)
         {
             //arrange

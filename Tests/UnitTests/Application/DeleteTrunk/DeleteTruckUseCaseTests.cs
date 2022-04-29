@@ -11,9 +11,9 @@ using Presentation.Transport;
 using Xunit;
 
 
-namespace UnitTests
+namespace UnitTests.DeleteTruckUseCaseTests
 {
-    public class DeleteTruckUseCase
+    public class DeleteTruckUseCaseTests
     {
 
         private readonly Fixture _fixture = new Fixture();
@@ -27,6 +27,12 @@ namespace UnitTests
         [InlineData("db631e07-28f8-4872-9557-9dc8a7038dad")]
         [InlineData("2edfad94-410d-4177-a647-2f7936d6d878")]
         [InlineData("1d811931-c99f-4c7a-bf38-d4688c70910c")]
+        [InlineData("2960bd7b-6974-4e51-808b-9e78cd34b94b")]
+        [InlineData("4fa5aaa2-e452-4d7f-8810-4d36e99c9c64")]
+        [InlineData("91f44fba-dd16-469e-8232-120549be8f0c")]
+        [InlineData("793a07f6-4254-4cf5-8746-094607a2774a")]
+        [InlineData("98e4a3c1-7014-457d-b4d6-0ef05a63e3f6")]
+        [InlineData("8a087a96-4950-47f2-812a-15ec24495e5b")]
         public async Task ShouldDeleteTruckWithSuccess(string id)
         {
             //arrange

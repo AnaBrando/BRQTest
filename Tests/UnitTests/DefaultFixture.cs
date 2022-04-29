@@ -1,4 +1,6 @@
 ﻿using Application.UseCase.CreateTrunk;
+using Application.UseCase.Queries.GetAllTruck;
+using CrossCutting.Infra;
 using Domain;
 using Domain.Interfaces;
 using MediatR;
@@ -19,6 +21,7 @@ namespace UnitTests
             CreateTruckCommandHandler = _mocker.CreateInstance<CreateTruckCommandHandler>();
             UpdateTruckCommandHandler = _mocker.CreateInstance<UpdateTruckCommandHandler>();
             DeleteTruckCommandHandler = _mocker.CreateInstance<DeleteTruckCommandHandler>();
+            TrunkQueryHandler = _mocker.CreateInstance<TrunkQueryHandler>();
         }
 
         public Mock<ITruckRepository> ITruckRepository { get; set; }
@@ -26,6 +29,7 @@ namespace UnitTests
         public CreateTruckCommandHandler CreateTruckCommandHandler { get; set; }
         public UpdateTruckCommandHandler UpdateTruckCommandHandler { get; set; }
         public DeleteTruckCommandHandler DeleteTruckCommandHandler { get; set; }
+        public TrunkQueryHandler TrunkQueryHandler { get; set; }
 
     }
 }

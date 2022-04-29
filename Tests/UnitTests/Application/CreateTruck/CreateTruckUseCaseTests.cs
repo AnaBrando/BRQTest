@@ -12,9 +12,9 @@ using Moq;
 using Xunit;
 
 
-namespace UnitTests
+namespace UnitTests.CreateTruckUseCaseTests
 {
-    public class CreateTruckUseCase
+    public class CreateTruckUseCaseTests
     {
 
         private readonly Fixture _fixture = new Fixture();
@@ -28,6 +28,10 @@ namespace UnitTests
         [InlineData(1, 2022, 2022)]
         [InlineData(2, 2022, 2024)]
         [InlineData(2, 2022, 2030)]
+        [InlineData(1, 2022, 2028)]
+        [InlineData(2, 2022, 2026)]
+        [InlineData(2, 2022, 2029)]
+        [InlineData(1, 2022, 2029)]
         public async Task ShouldCreateTruckWithSuccess(int model, int manufactoryYear, int modelyear)
         {
             //arrange

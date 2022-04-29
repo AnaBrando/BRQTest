@@ -11,3 +11,5 @@ README-secret.md
 *.vscode/
 *.vs/
 */.vs
+*/TestResults/
+*TestResults/

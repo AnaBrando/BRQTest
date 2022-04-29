@@ -12,6 +12,6 @@ namespace Domain.Interfaces
 
         Task<TEntity> UpdateAsync(string id,TEntity entity, CancellationToken cancellationToken);
 
-        Task<bool> DeleteAsync(string id, CancellationToken cancellationToken);
+        Task<bool> DeleteAsync(string id,CancellationToken cancellationToken);
     }
 }
