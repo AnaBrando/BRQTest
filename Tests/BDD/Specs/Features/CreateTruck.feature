@@ -11,8 +11,8 @@ Feature: Create Truck
         Then the truck must create
         Examples:
             | Model | ModelYear | ManufactoryYear |
-            | 1     | 2020      | 2022            |
-            | 2     | 2020      | 2025            |
+            | 1     | 2025      | 2022            |
+            | 2     | 2025      | 2022            |
 
     @CreateTruck
     @Failed

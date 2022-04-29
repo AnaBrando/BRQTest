@@ -1,6 +1,8 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 using FluentValidation;
 
+[ExcludeFromCodeCoverage]
 public class CreateTrunkRequestValidator : AbstractValidator<CreateTruckRequest> 
 {
     public CreateTrunkRequestValidator()

@@ -54,14 +54,16 @@ namespace Specs.Steps
         public void WhenWasValid()
         {
             var command = (CreateTruckCommand)_scenarioContext["Command"];
-            DefaultFixture.ITruckRepository.Setup(action => action.AddAsync(command.CreateTruckCommandToModel(), It.IsAny<CancellationToken>()))
-                .ReturnsAsync(command.CreateTruckCommandToModel());
-            DefaultFixture.IMediator.Setup(action => action.Send(command, It.IsAny<CancellationToken>()))
-                .ReturnsAsync(_fixture.Build<CreateTruckOutput>()
+            var output = _fixture.Build<CreateTruckOutput>()
                     .With(prop => prop.Success, true)
                     .With(prop => prop.Truck, command.CreateTruckCommandToModel())
                     .With(prop => prop.Message, Constants.CreateSuccess.SuccessDefault())
-                .Create());
+                .Create();
+
+            DefaultFixture.ITruckRepository.Setup(action => action.AddAsync(It.IsAny<Truck>(), It.IsAny<CancellationToken>())).ReturnsAsync(command.CreateTruckCommandToModel());
+           
+            DefaultFixture.IMediator.Setup(action => action.Send(It.IsAny<CreateTruckCommand>(), It.IsAny<CancellationToken>()))
+                .ReturnsAsync(output);
 
         }
 
@@ -78,21 +80,31 @@ namespace Specs.Steps
         [When(@"is Valid")]
         public void WhenIsValid()
         {
-            var output = _fixture.Build<CreateTruckOutput>()
-               .With(prop => prop.Success, false)
-               .With(prop => prop.Truck, It.IsAny<Truck>())
-               .With(prop => prop.Message, Constants.ErrorCreate.ErrorDefault())
-               .Create();
             var command = (CreateTruckCommand)_scenarioContext["Command"];
-            DefaultFixture.ITruckRepository.Setup(action => action.AddAsync(command.CreateTruckCommandToModel(), It.IsAny<CancellationToken>()))
+            var output = _fixture.Build<CreateTruckOutput>()
+               .With(prop => prop.Success, true)
+               .With(prop => prop.Truck, command.CreateTruckCommandToModel())
+               .With(prop => prop.Message, Constants.CreateSuccess.SuccessDefault())
+               .Create();
+            Constants.CreateSuccess.ErrorDefault().Should().BeOfType<string>();
+            DefaultFixture.ITruckRepository.Setup(action => action.AddAsync(It.IsAny<Truck>(), It.IsAny<CancellationToken>()))
                 .ReturnsAsync(command.CreateTruckCommandToModel());
         }
 
         [When(@"is Invalid")]
         public void WhenIsInvalid()
         {
-            ScenarioContext.Current.Pending();
+            var command = (CreateTruckCommand)_scenarioContext["Command"];
+            var output = _fixture.Build<CreateTruckOutput>()
+               .With(prop => prop.Success, false)
+               .With(prop => prop.Truck, It.IsAny<Truck>())
+               .With(prop => prop.Message, Constants.ErrorCreate.ErrorDefault())
+               .Create();
+           
+            DefaultFixture.ITruckRepository.Setup(action => action.AddAsync(It.IsAny<Truck>(), It.IsAny<CancellationToken>()))
+                .ReturnsAsync(It.IsAny<Truck>());
         }
+
 
         [Then(@"the truck is not create")]
         public async Task ThenTheTruckIsNotCreate()
@@ -100,9 +112,9 @@ namespace Specs.Steps
             var command = (CreateTruckCommand)_scenarioContext["Command"];
             var result = await DefaultFixture.CreateTruckCommandHandler.Handle(command, It.IsAny<CancellationToken>());
             result.Should().NotBeNull();
-            result.Message.Should().Be(Constants.ErrorCreate.ErrorDefault());
-            result.Success.Should().BeTrue();
-            result.Truck.Should().BeOfType<Truck>();
+            result.Message.Should().Be(Constants.ErrorCreate.ErrorDefault().InvalidFieldsDefault());
+            result.Success.Should().BeFalse();
+            result.Truck.Should().BeNull();
         }
 
     }

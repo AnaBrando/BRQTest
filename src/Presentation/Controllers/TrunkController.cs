@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Http;
 using MediatR;
 using Application.UseCase.Queries.GetAllTruck;
 using Presentation.Transport;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Presentation.Controllers
 {
+    [ExcludeFromCodeCoverage]
     [ApiController]
     [Route("[controller]")]
     public class TruckController : ControllerBase

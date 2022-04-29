@@ -133,7 +133,7 @@ namespace Specs.Features
         public virtual void CreateTruckSuccess_1()
         {
 #line 5
-    this.CreateTruckSuccess("1", "2020", "2022", ((string[])(null)));
+    this.CreateTruckSuccess("1", "2025", "2022", ((string[])(null)));
 #line hidden
         }
         
@@ -143,7 +143,7 @@ namespace Specs.Features
         public virtual void CreateTruckSuccess_2()
         {
 #line 5
-    this.CreateTruckSuccess("2", "2020", "2025", ((string[])(null)));
+    this.CreateTruckSuccess("2", "2025", "2022", ((string[])(null)));
 #line hidden
         }
         

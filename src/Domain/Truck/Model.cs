@@ -1,5 +1,6 @@
 namespace Domain
 {
+
     public enum Model
     {
         FH = 1,
