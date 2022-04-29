@@ -15,4 +15,5 @@
     <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\CrossCutting.Infra\CrossCutting.Infra.csproj" />
   </ItemGroup>
+ <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 </Project>

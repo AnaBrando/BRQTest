@@ -42,7 +42,7 @@ namespace UnitTests.DeleteTruckUseCaseTests
                 .Create();
             var command = request.DeleteRequestToCommand();
             var output = _fixture.Build<DeleteTruckOutput>()
-               .With(x => x.Succes, true)
+               .With(x => x.Success, true)
                .With(x => x.Message, Constants.CreateSuccess.SuccessDefault())
                .Create();
             //action
@@ -56,7 +56,7 @@ namespace UnitTests.DeleteTruckUseCaseTests
 
             //assert
             result.Should().NotBeNull();
-            result.Succes.Should().BeTrue();
+            result.Success.Should().BeTrue();
             result.Message.Should().Be(Constants.DeleteSuccess.SuccessDefault());
 
 
@@ -77,7 +77,7 @@ namespace UnitTests.DeleteTruckUseCaseTests
                 .Create();
             var command = request.DeleteRequestToCommand();
             var output = _fixture.Build<DeleteTruckOutput>()
-               .With(x => x.Succes, false)
+               .With(x => x.Success, false)
                .With(x => x.Message, Constants.ErrorCreate.SuccessDefault().ErrorDefault())
                .Create();
             //action
@@ -91,7 +91,7 @@ namespace UnitTests.DeleteTruckUseCaseTests
 
             //assert
             result.Should().NotBeNull();
-            result.Succes.Should().BeFalse();
+            result.Success.Should().BeFalse();
             result.Message.Should().Be(Constants.DeleteError.ErrorDefault());
 
 

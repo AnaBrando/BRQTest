@@ -10,7 +10,7 @@ namespace CrossCutting.Infra.Mapping
     {
         public void Configure(EntityTypeBuilder<Truck> builder)
         {
-
+            builder.ToTable("Truck");
             builder.HasKey(p => p.Id);
             builder.Property(x => x.ManufactoryYear);
             builder.Property(x => x.ModelYear);

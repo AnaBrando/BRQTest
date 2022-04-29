@@ -2,7 +2,7 @@
 
 namespace Domain
 {
-    public sealed class Truck
+    public class Truck
     {
         private Model model;
 

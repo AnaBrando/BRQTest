@@ -58,7 +58,7 @@ namespace Specs.Steps
                 .ReturnsAsync(command.CreateTruckCommandToModel());
             DefaultFixture.IMediator.Setup(action => action.Send(command, It.IsAny<CancellationToken>()))
                 .ReturnsAsync(_fixture.Build<CreateTruckOutput>()
-                    .With(prop => prop.Succes, true)
+                    .With(prop => prop.Success, true)
                     .With(prop => prop.Truck, command.CreateTruckCommandToModel())
                     .With(prop => prop.Message, Constants.CreateSuccess.SuccessDefault())
                 .Create());
@@ -72,14 +72,14 @@ namespace Specs.Steps
             var result = await DefaultFixture.CreateTruckCommandHandler.Handle(command, It.IsAny<CancellationToken>());
             result.Should().NotBeNull();
             result.Message.Should().Be(Constants.CreateSuccess.SuccessDefault());
-            result.Succes.Should().BeTrue();
+            result.Success.Should().BeTrue();
             result.Truck.Should().BeOfType<Truck>();
         }
         [When(@"is Valid")]
         public void WhenIsValid()
         {
             var output = _fixture.Build<CreateTruckOutput>()
-               .With(prop => prop.Succes, false)
+               .With(prop => prop.Success, false)
                .With(prop => prop.Truck, It.IsAny<Truck>())
                .With(prop => prop.Message, Constants.ErrorCreate.ErrorDefault())
                .Create();
@@ -101,7 +101,7 @@ namespace Specs.Steps
             var result = await DefaultFixture.CreateTruckCommandHandler.Handle(command, It.IsAny<CancellationToken>());
             result.Should().NotBeNull();
             result.Message.Should().Be(Constants.ErrorCreate.ErrorDefault());
-            result.Succes.Should().BeTrue();
+            result.Success.Should().BeTrue();
             result.Truck.Should().BeOfType<Truck>();
         }
 

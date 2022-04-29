@@ -44,7 +44,7 @@ namespace UnitTests.CreateTruckUseCaseTests
             var command = request.CreateRequestToCommand();
             var output = _fixture.Build<CreateTruckOutput>()
                .With(x => x.Truck, command.CreateTruckCommandToModel())
-               .With(x => x.Succes, true)
+               .With(x => x.Success, true)
                .With(x => x.Message, Constants.CreateSuccess.SuccessDefault())
             .Create();
             //action
@@ -57,7 +57,7 @@ namespace UnitTests.CreateTruckUseCaseTests
 
             //assert
             result.Should().NotBeNull();
-            result.Succes.Should().BeTrue();
+            result.Success.Should().BeTrue();
             result.Message.Should().Be(Constants.CreateSuccess.SuccessDefault());
             result.Truck.Should().NotBeNull();
             result.Truck.ManufactoryYear.Should().Be(DateTime.Now.Year);
@@ -83,7 +83,7 @@ namespace UnitTests.CreateTruckUseCaseTests
             var command = request.CreateRequestToCommand();
             var output = _fixture.Build<CreateTruckOutput>()
                .With(x => x.Truck, It.IsAny<Truck>())
-               .With(x => x.Succes, false)
+               .With(x => x.Success, false)
                .With(x => x.Message, Constants.ErrorCreate.ErrorDefault().InvalidFieldsDefault())
                .Create();
             //action
@@ -96,7 +96,7 @@ namespace UnitTests.CreateTruckUseCaseTests
 
             //assert
             result.Should().NotBeNull();
-            result.Succes.Should().BeFalse();
+            result.Success.Should().BeFalse();
             result.Message.Should().Be(Constants.ErrorCreate.ErrorDefault().InvalidFieldsDefault());
             result.Truck.Should().BeNull();
 
@@ -119,7 +119,7 @@ namespace UnitTests.CreateTruckUseCaseTests
             var command = request.CreateRequestToCommand();
             var output = _fixture.Build<CreateTruckOutput>()
                .With(x => x.Truck, It.IsAny<Truck>())
-               .With(x => x.Succes, false)
+               .With(x => x.Success, false)
                .With(x => x.Message, Constants.ErrorCreate.SuccessDefault().ErrorDefault())
                .Create();
             //action
@@ -132,7 +132,7 @@ namespace UnitTests.CreateTruckUseCaseTests
 
             //assert
             result.Should().NotBeNull();
-            result.Succes.Should().BeFalse();
+            result.Success.Should().BeFalse();
             result.Message.Should().Be(Constants.ErrorCreate.ErrorDefault());
             result.Truck.Should().BeNull();
 

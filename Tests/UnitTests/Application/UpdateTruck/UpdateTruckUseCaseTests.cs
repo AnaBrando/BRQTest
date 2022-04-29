@@ -41,7 +41,7 @@ namespace UnitTests.UpdateTruckUseCaseTests
                 .Create();
             var command = request.UpdateRequestToCommand();
             var output = _fixture.Build<UpdateTruckOutput>()
-               .With(x => x.Succes, true)
+               .With(x => x.Success, true)
                .With(x => x.Message, Constants.UpdateSuccess.SuccessDefault())
                .Create();
             //action
@@ -54,7 +54,7 @@ namespace UnitTests.UpdateTruckUseCaseTests
 
             //assert
             result.Should().NotBeNull();
-            result.Succes.Should().BeTrue();
+            result.Success.Should().BeTrue();
             result.Message.Should().Be(Constants.UpdateSuccess.SuccessDefault());
 
 
@@ -81,7 +81,7 @@ namespace UnitTests.UpdateTruckUseCaseTests
                 .Create();
             var command = request.UpdateRequestToCommand();
             var output = _fixture.Build<UpdateTruckOutput>()
-               .With(x => x.Succes, false)
+               .With(x => x.Success, false)
                .With(x => x.Message, Constants.UpdateError.ErrorDefault().InvalidFieldsDefault())
                .Create();
             //action
@@ -95,7 +95,7 @@ namespace UnitTests.UpdateTruckUseCaseTests
             //assert
             result.Should().NotBeNull();
             var message = Constants.UpdateError.ErrorDefault().InvalidFieldsDefault();
-            result.Succes.Should().BeFalse();
+            result.Success.Should().BeFalse();
             result.Message.Should().Be(Constants.UpdateError.InvalidFieldsDefault());
 
         }
@@ -120,7 +120,7 @@ namespace UnitTests.UpdateTruckUseCaseTests
                 .Create();
             var command = request.UpdateRequestToCommand();
             var output = _fixture.Build<UpdateTruckOutput>()
-               .With(x => x.Succes, false)
+               .With(x => x.Success, false)
                .With(x => x.Message, Constants.UpdateError.SuccessDefault().ErrorDefault())
                .Create();
             //action
@@ -133,7 +133,7 @@ namespace UnitTests.UpdateTruckUseCaseTests
 
             //assert
             result.Should().NotBeNull();
-            result.Succes.Should().BeFalse();
+            result.Success.Should().BeFalse();
             result.Message.Should().Be(Constants.UpdateError.ErrorDefault());
 
         }

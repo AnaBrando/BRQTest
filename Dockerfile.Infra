@@ -1,4 +1,4 @@
-FROM microsoft/mssql-server-linux:2017-latest
+FROM mcr.microsoft.com/mssql/server:2019-CU15-ubuntu-20.04 
 ENV ACCEPT_EULA y
 ENV SA_PASSWORD myPass123
 ENV MSSQL_IP_ADDRESS=0.0.0.0

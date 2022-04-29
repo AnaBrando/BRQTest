@@ -6,11 +6,11 @@ namespace Application.UseCase.CreateTrunk
     {
         public UpdateTruckOutput(bool succes, string message)
         {
-            Succes = succes;
+            Success = succes;
             Message = message;
         }
 
-        public bool Succes {get;set;}
+        public bool Success {get;set;}
 
         public string Message { get; set; }
     }

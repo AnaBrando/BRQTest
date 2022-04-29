@@ -15,9 +15,9 @@ namespace CrossCutting.Injector
         public static void RegisterServicesCrossCuttingInfra(this IServiceCollection services, IConfiguration config)
         {
             services.AddScoped<ITruckRepository, TruckRepository>();
-            var connection = config.GetConnectionString("ConnectionStrings:SqlConnection");
+            var connection = config.GetValue<string>("ConnectionStrings:Conexao");
             services.AddDbContext<ApplicationContext>(options =>
-                options.UseSqlServer(""));
+                options.UseSqlServer(connection));
         }
     }
 }
